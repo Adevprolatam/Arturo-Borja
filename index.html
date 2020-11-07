@@ -56,11 +56,12 @@
     }
     
     section.awSlider > img{
+      width: 100%;
       position:absolute;
       top:30px;
       z-index:1;
-      transition:all .3s;
-      filter: blur(1.8vw);
+      transition:all .4s;
+      filter: blur(2vw);
       -webkit-filter: blur(2vw);
       -moz-filter: blur(2vw); 
       -o-filter: blur(2vw); 
@@ -70,6 +71,11 @@
       transform: scale(1.1);
       opacity:.5;
     }
+    
+   .item img{
+     width: 900px;
+    
+   }
 </style>
 <script>
       window.console = window.console || function(t) {};
